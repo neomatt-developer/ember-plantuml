@@ -1,0 +1,9 @@
+
+@startuml
+Model  <|-- PERSON
+
+class PERSON {
+firstName
+lastName
+}
+@enduml
