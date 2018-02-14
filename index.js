@@ -6,7 +6,7 @@ module.exports = {
 
   includedCommands: function() {
     return {
-      plantuml: require('./lib/commands/plantuml')
+      'generate-uml': require('./lib/commands/plantuml')
     };
   }
 };
